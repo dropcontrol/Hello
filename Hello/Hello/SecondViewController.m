@@ -132,7 +132,7 @@
     self.textArray = @[text1, text2];
 }
 
-- (void)changeImageAndLabel:(id)selector
+- (void)changeImageAndLabel:(UIButton *)button
 {
     
     if (buttonCount != [_imageArray count] - 1) {
