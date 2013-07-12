@@ -28,15 +28,20 @@
     // 用意したwindowに乗せる、ViewControllerを初期化して用意してます。
     UIViewController *helloViewController = [[HelloViewController alloc] initWithNibName:nil bundle:nil];
 
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:helloViewController];
+    // 上で渡しちゃったので、ViewControllerは用済みなのでリリースします。
+    [helloViewController release];
+
+
     // 二つ目のViewControllerであるところの、SecondViewControllerを初期化して用意してあげましょう。
     UIViewController *secondViewController = [[SecondViewController alloc] init];
     
+    
     // NSArrayの生成（Xcode 4.4）
     // NSArray *colors = @[@"Orange", @"Yellow", @"Green"]; // nilは不要！
-    NSArray *tabBarControllers = @[helloViewController, secondViewController];
+    NSArray *tabBarControllers = @[navigationController, secondViewController];
 
-    // 上で渡しちゃったので、hellViewControllerは用済みなのでリリースします。
-    [helloViewController release];
+    // 上で渡しちゃったので、ViewControllerは用済みなのでリリースします。
     [secondViewController release];
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];

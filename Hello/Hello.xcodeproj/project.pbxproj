@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051139BD177D5E6600664CEE /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051139BC177D5E6600664CEE /* NextViewController.m */; };
 		05157441172A2D7500DFB1FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05157440172A2D7500DFB1FD /* UIKit.framework */; };
 		05157443172A2D7500DFB1FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05157442172A2D7500DFB1FD /* Foundation.framework */; };
 		05157445172A2D7500DFB1FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05157444172A2D7500DFB1FD /* CoreGraphics.framework */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		051139BB177D5E6600664CEE /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		051139BC177D5E6600664CEE /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		0515743D172A2D7500DFB1FD /* Hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05157440172A2D7500DFB1FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05157442172A2D7500DFB1FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +96,8 @@
 				05157450172A2D7500DFB1FD /* HelloAppDelegate.m */,
 				0515745D172A324F00DFB1FD /* HelloViewController.h */,
 				0515745E172A324F00DFB1FD /* HelloViewController.m */,
+				051139BB177D5E6600664CEE /* NextViewController.h */,
+				051139BC177D5E6600664CEE /* NextViewController.m */,
 				05206FEE173CA33600FE4744 /* SecondViewController.h */,
 				05206FEF173CA33600FE4744 /* SecondViewController.m */,
 				05157447172A2D7500DFB1FD /* Supporting Files */,
@@ -195,6 +200,7 @@
 				05157451172A2D7500DFB1FD /* HelloAppDelegate.m in Sources */,
 				0515745F172A324F00DFB1FD /* HelloViewController.m in Sources */,
 				05206FF0173CA33600FE4744 /* SecondViewController.m in Sources */,
+				051139BD177D5E6600664CEE /* NextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
